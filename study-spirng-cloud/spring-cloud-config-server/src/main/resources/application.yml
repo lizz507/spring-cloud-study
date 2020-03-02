@@ -1,0 +1,23 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lizz507/spring-cloud-config.git
+          username: lizz507
+          password: lizz507github
+          search-paths: /config
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/
+
+
+
+
