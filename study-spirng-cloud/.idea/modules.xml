@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-demo/spring-cloud-study-demo-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-demo/spring-cloud-study-demo-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo-ribbon/spring-cloud-study-demo-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-demo-ribbon/spring-cloud-study-demo-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul-demo/spring-cloud-study-demo-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul-demo/spring-cloud-study-demo-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dependencies/spring-cloud-study-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-dependencies/spring-cloud-study-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-study-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-study-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-demo/spring-cloud-study-service-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-service-demo/spring-cloud-study-service-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/study-spirng-cloud.iml" filepath="$PROJECT_DIR$/.idea/study-spirng-cloud.iml" />
+    </modules>
+  </component>
+</project>

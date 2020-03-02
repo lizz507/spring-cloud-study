@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-ribbon-demo
+server:
+  port: 8766
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/
+

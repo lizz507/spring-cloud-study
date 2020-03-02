@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-cloud-feign-demo
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/
+       server:
+  port: 9001
+
+feign:
+  hystrix:
+    enabled: true
