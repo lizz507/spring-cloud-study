@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: spring-cloud-ribbon-demo
+  profiles:
+    active: local
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8763/eureka/
+#本地环境
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: spring-cloud-config-server
+      profile: local
+      label: master
+      #找不到config server时启动失败
+      fail-fast: true
+
+
+
+
+---
+
+
+

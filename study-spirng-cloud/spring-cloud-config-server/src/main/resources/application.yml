@@ -10,7 +10,16 @@ spring:
           uri: https://github.com/lizz507/spring-cloud-config.git
           username: lizz507
           password: lizz507github
-          search-paths: /config
+          search-paths: /**
+#          refreshRate: 1
+#          basedir: config-repo/config-repo
+#        bootstrap: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 eureka:
   instance:
     hostname: localhost

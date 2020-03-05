@@ -11,8 +11,7 @@ import org.springframework.stereotype.Component;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 @Component
 public class ServiceFallbackProvider implements ZuulFallbackProvider {
@@ -68,5 +67,15 @@ public class ServiceFallbackProvider implements ZuulFallbackProvider {
                 return httpHeaders;
             }
         };
+    }
+
+    public static void main(String[] args) {
+        String name  = null;
+        System.out.println(Optional.ofNullable(name).orElse("-"));
+        List<String> list = new ArrayList<>();
+        list.add(Optional.ofNullable(name).orElse("-"));
+        for (String s : list) {
+            System.out.println(s);
+        }
     }
 }

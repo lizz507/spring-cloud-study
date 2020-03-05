@@ -1,0 +1,38 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: spring-cloud-feign-demo
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/
+
+
+feign:
+  hystrix:
+    enabled: true
+
+
+#调用http://localhost:port/refresh时如果这里没有关闭则会返回401
+management:
+  security:
+    enabled: false
+
+#本地环境
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: spring-cloud-config-server
+      profile: local
+      label: master
+      #找不到config server时启动失败
+      fail-fast: true

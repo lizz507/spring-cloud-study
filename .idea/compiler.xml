@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-config-server" />
         <module name="spring-cloud-study-demo-feign" />
         <module name="spring-cloud-study-demo-ribbon" />
         <module name="spring-cloud-study-demo-zuul" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-cloud-config-server" target="1.8" />
       <module name="spring-cloud-study-demo-feign" target="1.8" />
       <module name="spring-cloud-study-demo-ribbon" target="1.8" />
       <module name="spring-cloud-study-demo-zuul" target="1.8" />

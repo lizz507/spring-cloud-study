@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/study-spirng-cloud/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/study-spirng-cloud/spring-cloud-config-server/spring-cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-study.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-spirng-cloud/spring-cloud-feign-demo/spring-cloud-study-demo-feign.iml" filepath="$PROJECT_DIR$/study-spirng-cloud/spring-cloud-feign-demo/spring-cloud-study-demo-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-spirng-cloud/spring-cloud-demo-ribbon/spring-cloud-study-demo-ribbon.iml" filepath="$PROJECT_DIR$/study-spirng-cloud/spring-cloud-demo-ribbon/spring-cloud-study-demo-ribbon.iml" />
